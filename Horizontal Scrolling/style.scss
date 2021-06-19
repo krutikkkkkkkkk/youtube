@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    margin: 0;
+    overflow-y:hidden;
+
+    .container {
+        height: 100%;
+        width: 100%;
+        scroll-snap-type: x mandatory;
+        overflow-x: scroll;
+        display: flex;
+        overflow-y:hidden;
+
+        section {
+            flex: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            scroll-snap-align: start;
+            overflow-y:hidden;
+        }
+    }
+
+}
+
+.page1 {
+    background-color: #222;
+    color: blue;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.page2 {
+    background-color: rgb(66, 65, 65);
+    color: rgb(7, 190, 89);
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.page3 {
+    background-color: rgb(19, 17, 17);
+    color: rgb(190, 7, 7);
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+///Horizontal Scrolling Source down : reboot13_dev || Krutik Raut
