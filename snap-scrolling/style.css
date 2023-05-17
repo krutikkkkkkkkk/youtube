@@ -1,0 +1,41 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+}
+
+section{
+    scroll-snap-align: start;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    flex-direction: column;
+
+}
+
+.s1{
+    background-color: #00b3ff;
+}
+
+.s2{
+    background-color: #ff00ff;
+}
+
+.s3{
+    background-color: #ffd000;
+}
+
+.s4{
+    background-color: #00b991;
+}
+
